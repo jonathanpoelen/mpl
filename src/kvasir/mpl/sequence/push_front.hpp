@@ -26,7 +26,7 @@ namespace kvasir {
 				};
 			} // namespace impl
 
-			/// push an element to the back of a list
+			/// push an element to the front of a list
 			template <typename Elem, typename List>
 			using push_front = typename impl::push_front_impl<Elem, List>::f;
 		} // namespace eager
